@@ -1,0 +1,52 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#seccion
+{
+	margin: 30px auto;
+	height: 300px;
+	width: 1000px;
+	background-color: #BDBCBC;
+	transition: all .4s ease-in-out .1s
+}
+
+#foto
+{
+	height: 200px;
+	width: 300px;
+	float: left;
+	padding: 20px;
+	background-color: #F4771C;
+	margin: 10px;
+	transition: all .4s ease-in-out .1s;
+}
+
+#articulo
+{
+	float: left;
+	width: 500px;
+	height: 200px;
+	padding: 50px;
+	text-align: left;
+	color: #260E9F;
+	transition: all .4s ease-in-out .1s;
+	
+}
+
+#foto:hover
+{
+	transform: rotate(360deg);
+}
+
+#articulo:hover
+{
+	background-color: blue;
+}
+
+#seccion:hover
+{
+	background-color: #30743E;
+}
